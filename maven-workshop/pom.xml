@@ -9,6 +9,7 @@
 
     <scm>
         <connection>scm:git:https://github.com/mateusz-was/maven-workshop.git</connection>
+        <url>https://github.com/mateusz-was/maven-workshop.git</url>
     </scm>
 
 
