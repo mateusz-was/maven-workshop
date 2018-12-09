@@ -6,8 +6,13 @@
 
     <groupId>priv.mwas</groupId>
     <artifactId>maven-workshop</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.1.1</version>
     <packaging>pom</packaging>
+
+    <scm>
+        <connection>scm:git:https://github.com/mateusz-was/maven-workshop.git</connection>
+    </scm>
+
 
     <modules>
         <module>build-number-example</module>
@@ -20,6 +25,11 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>versions-maven-plugin</artifactId>
                 <version>2.7</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
             </plugin>
         </plugins>
     </build>
