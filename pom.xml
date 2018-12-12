@@ -12,10 +12,4 @@
         <url>https://github.com/mateusz-was/maven-workshop.git</url>
     </scm>
 
-
-    <modules>
-        <module>build-number-example</module>
-        <module>versions-multi</module>
-    </modules>
-
 </project>

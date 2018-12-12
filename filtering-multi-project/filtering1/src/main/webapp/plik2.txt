@@ -1,0 +1,3 @@
+Hello ${nasz.user}!
+
+Typ dokumentu: ${type}
