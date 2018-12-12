@@ -11,6 +11,10 @@
         <version>1.0.0</version>
     </parent>
 
+    <properties>
+        <child-prop>jestem z dziecka</child-prop>
+    </properties>
+
     <build>
         <plugins>
             <plugin>

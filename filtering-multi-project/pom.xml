@@ -20,6 +20,10 @@
         <module>filtering2</module>
     </modules>
 
+    <properties>
+        <parent-prop>jestem z parenta</parent-prop>
+    </properties>
+
     <profiles>
         <profile>
             <id>dev</id>
