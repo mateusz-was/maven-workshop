@@ -35,7 +35,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.0.2</version>
+                <version>3.1.0</version>
                 <configuration>
                     <archive>
                         <manifest>
@@ -48,7 +48,7 @@
                             <Build-Branch>${scmBranch}</Build-Branch>
                         </manifestEntries>
                     </archive>
-                    <finalName>bn-example-${version}-${buildNumber}</finalName>
+                    <finalName>bn-example-${project.version}-${buildNumber}</finalName>
                 </configuration>
             </plugin>
         </plugins>
